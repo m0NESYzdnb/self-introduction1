@@ -1,0 +1,7 @@
+# Motion Update
+
+Deployment: created and pushed public repository https://github.com/m0NESYzdnb/self-introduction1. Pages enabled with Actions; run 37502847717 succeeded for both build and deploy after rerunning the initial setup race. Live URL: https://m0nesyzdnb.github.io/self-introduction1/. Browser rendered resume and both WebGL canvases; hero image loaded at 1024px, certificate filter and modal worked. No console errors returned. Assets use BASE_URL; main pushes now deploy automatically.
+
+Implemented GSAP opening choreography with static text masks, compressed-name entrance, transform-driven image curtain, delayed profile card and subtle hero parallax. Section titles lead staggered supporting content. Visible tab panels create per-card ScrollTriggers, including certificate image reveals; tab and filter updates revert old animation contexts. Reduced-motion and print media revert animated inline styles. ResizeObserver refreshes triggers when panel, language or device layout changes.
+
+Browser verification: desktop 1391px initial name transform and image curtain progressed to cleared final transforms after the opening; animated section title transforms were observed on scroll. Huawei filter and original certificate modal passed. At 390px, document width was 382px with no horizontal overflow. No browser console warnings/errors were returned. Build passed with the existing large-chunk warning. Reduced-motion and print restoration are handled by live GSAP matchMedia contexts; those OS/media states were not manually emulated in the browser.
